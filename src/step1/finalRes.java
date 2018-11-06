@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 /**
- * µÃµ½É¸Ñ¡ºó½á¹û£¬ÓÃÀ´½øĞĞÏÂÒ»²½ÆÀ¹À
+ * å¾—åˆ°ç­›é€‰åç»“æœï¼Œç”¨æ¥è¿›è¡Œä¸‹ä¸€æ­¥è¯„ä¼°
  * @author hjl
  *
  */
@@ -24,13 +24,13 @@ public class finalRes {
 			sfinal = new ArrayList<>();
 			pfinal = new ArrayList<>();
 			
-			String roadp = "I:\\PSOlab\\" + road+ "\\res\\p\\pres" + i +".txt";
+			String roadp = "E:\\PSOlab\\" + road+ "\\res\\p\\pres" + i +".txt";
 			ReadPData(roadp, pfinal);
-			String roads = "I:\\PSOlab\\" + road+ "\\res\\s\\sres" + i +".txt";
+			String roads = "E:\\PSOlab\\" + road+ "\\res\\s\\sres" + i +".txt";
 			ReadPData(roads, sfinal);
 			
-			String outp ="I:\\PSOlab\\" + road+ "\\res\\finalp\\pres" + i +".txt";
-			String outs = "I:\\PSOlab\\" + road+ "\\res\\finals\\sres" + i +".txt";
+			String outp ="E:\\PSOlab\\" + road+ "\\res\\finalp\\pres" + i +".txt";
+			String outs = "E:\\PSOlab\\" + road+ "\\res\\finals\\sres" + i +".txt";
 			outData(outp, outs);
 		}
 
