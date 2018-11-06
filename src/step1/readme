@@ -1,9 +1,11 @@
+https://github.com/GALI17/Assessment_F
+
 The project has two functions:
-1)finalRes.java : Filter out the final logical expression
+1)finalRes.java : Get the final logical expression
 2)countError_P.java/countError_S.java : Calculate Type I Error and Type II Error for phenotypes/loci
 
 Execution order:
-finalRes.java(The result has been uploaded and this step does not need to be performed)
+finalRes.java(uploaded)
 countError_P.java  /  countError_S.java
 
 Explanation:
@@ -15,7 +17,7 @@ E.g:
 		System.out.println(typeIIP);
 
 3) int row = 1
-Each time a set of experimental data is modified, the value of row needs to be modified accordingly.
+Each time a set of experimental data is modified, the value of "row" needs to be modified accordingly.
 data  row
 30-26  1
 30-28  2
