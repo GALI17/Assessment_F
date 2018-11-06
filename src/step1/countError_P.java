@@ -19,7 +19,7 @@ public class countError_P {
 	static List<String> realallp = new ArrayList<>();
 	
 	public static void main(String[] args) throws IOException{
-		String str = "I:\\PSOlab\\30-26";
+		String str = "E:\\PSOlab\\30-26";
 		String roadp = str + "\\real_p.txt";
 		readReal(roadp,realallp);
 		
