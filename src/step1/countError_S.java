@@ -19,7 +19,7 @@ public class countError_S {
 	static List<String> realalls = new ArrayList<>();
 	
 	public static void main(String[] args) throws IOException{
-		String str = "I:\\PSOlab\\30-26";
+		String str = "E:\\PSOlab\\30-26";
 		String roads = str + "\\real_s.txt";
 		readReal(roads,realalls);
 		
